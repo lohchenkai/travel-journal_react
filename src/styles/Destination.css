@@ -11,6 +11,11 @@
     border-bottom: 1px solid #F5F5F5;
 }
 
+.destination:hover {
+    transform: scale(1.2);
+    margin: 1em;
+}
+
 .destination:last-of-type {
     border: none;
 }

@@ -1,9 +1,52 @@
+/* utility class */
+.bold {
+    font-weight: 700;
+}
+
 .destination {
+    color: #2B283A;
+    padding: 2em;
     display: flex;
-    margin: 1em;
+    gap: 1em;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.destination:last-of-type {
+    border: none;
 }
 
 .destination-image {
-    width: 20%;
+    width: 30%;
     border-radius: 5px;
+}
+
+.destination-info {
+    padding: 1.5em;
+}
+
+.destination-location {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.destination-country {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 1.5em 0 0.25em;
+    letter-spacing: 0.3rem;
+}
+
+.destination-title {
+    font-size: 2rem;
+    margin-bottom: 0.6em;
+}
+
+.destination-date {
+    font-size: 1rem;
+}
+
+.destination-description {
+    font-size: 1rem;
 }

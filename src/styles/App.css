@@ -1,5 +1,11 @@
 #root {
-  max-width: 960px;
+  max-width: 768px;
   margin: 0 auto;
-  text-align: center;
+}
+
+
+a {
+  font-weight: 400;
+  color: #918e9b;
+  cursor: hover;
 }

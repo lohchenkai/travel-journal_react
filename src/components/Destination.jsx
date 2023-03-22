@@ -26,8 +26,8 @@ export default function Destination(props){
                     <h3 className="destination-country">{location}</h3>
                     <a className='destination-link' href={googleMapsUrl} target="_blank">View on Google Maps</a>
                 </div>
-                <h2 className="destination-title">{title}</h2>
-                <p className="destination-date">{`${startDate} - ${endDate}`}</p>
+                <h2 className="destination-title bold">{title}</h2>
+                <p className="destination-date bold">{`${startDate} - ${endDate}`}</p>
                 <p className="destination-description">{description}</p>
             </div>
         </section>

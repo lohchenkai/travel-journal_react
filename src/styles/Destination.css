@@ -1,0 +1,9 @@
+.destination {
+    display: flex;
+    margin: 1em;
+}
+
+.destination-image {
+    width: 20%;
+    border-radius: 5px;
+}
